@@ -45,3 +45,14 @@ main section:first-child {
     margin-bottom: 3rem;
 }
 
+main > section > h2 + p > strong {
+    color: purple;
+}
+
+li:nth-child(even) {
+    color: purple;
+}
+
+dl > div {
+    background-color: #ccc;
+}
