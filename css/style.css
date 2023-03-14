@@ -17,3 +17,31 @@ p + h1 + h3 {
     font-family: sans-serif;
     font-weight: bold;
 }
+nav a { 
+    margin: 1em 0;
+}
+h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+}
+header > p {
+    font-size: 1.25rem;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+}
+
+a[rel="external"] {
+    color: purple;
+}
+
+#experince section:first-of-type {
+    border-bottom: 2px dashed #ccc;
+}
+
+main section:first-child {
+    margin-bottom: 3rem;
+}
+
